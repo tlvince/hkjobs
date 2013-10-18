@@ -2,6 +2,8 @@
 
 Hong Kong jobs aggregator.
 
+<http://hkjobs.tlvince.com/>
+
 A RSS feed aggregator for Hong Kong-based tech jobs, written in under an hour.
 
 ## Author
