@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  .container
+    .page-header
+      h1= metadata.description
+    .list-group
+      - each item in rss
+        a.list-group-item(href= item.link)
+          h4.list-group-item-heading= item.title
+          p.list-group-item-text= item.description
